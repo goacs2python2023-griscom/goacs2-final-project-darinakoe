@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.3.4.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="c697e6af-e357-472d-860d-eb276de13632" data-root-id="p1004" style="display: contents;"></div>
+  
+    <script type="application/json" id="p1056">
+      {"7d80fcc5-1c55-4d6a-8ac8-2afa715a42f6":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1004","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p1005"},"y_range":{"type":"object","name":"DataRange1d","id":"p1006"},"x_scale":{"type":"object","name":"LinearScale","id":"p1014"},"y_scale":{"type":"object","name":"LinearScale","id":"p1015"},"title":{"type":"object","name":"Title","id":"p1007","attributes":{"text":"Scatter Plot of Green Area per Capita vs. Well-being of Population"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1043","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1001","attributes":{"selected":{"type":"object","name":"Selection","id":"p1002","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1003"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMAAAAUAAAAFQAAABYAAAAXAAAAGAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAAIQAAACIAAAAjAAAAJAAAACUAAAAmAAAAJwAAAA=="},"shape":[40],"dtype":"int32","order":"little"}],["Country",{"type":"ndarray","array":["Finland","Denmark","New Zealand","Switzerland","Denmark","Norway","Norway","Sweden","Iceland","Canada","Australia","New Zealand","New Zealand","United States of America","United States of America","Austalia","United States of America","Ireland","Sweden","United States of America","United States of America","United States of America","United States of America","United States of America","Ireland","United Kingdom","Chile","Mexico","Belgium","France","Czechia","Colombia","Spain","Slovakia","Spain","Lithuania","Romania","Greece","T\u00fcrkiye","Estonia"],"shape":[40],"dtype":"object","order":"little"}],["City",{"type":"ndarray","array":["Helsinki","\u00c5rhus","Wellington","Zurich","K\u00f8benhavn","Bergen","Oslo","Stockholm","Reykjav\u00edk","Toronto","Greater Melbourne","Auckland","Christchurch","Washington (Greater)","Dallas","Greater Sydney","Houston","Dublin","G\u00f6teborg","Chicago","Atlanta","Miami (Greater)","New York (Greater)","Los Angeles","Cork","London","Santiago","Mexico City","Brussels","Paris","Praha","Bogota D.C","Madrid","Bratislava","Barcelona","Vilnius","Bucharest","Thessalooniki","Ankara","Tallinn"],"shape":[40],"dtype":"object","order":"little"}],["Share of green areas in FUA's urban centres",{"type":"ndarray","array":{"type":"bytes","data":"MzMzMzNzS0AAAAAAAMBHQGZmZmZm5kxAmpmZmZlZS0AAAAAAAMBHQGZmZmZmZlBAzczMzMyMSkAAAAAAAEBOQAAAAAAAwEpAmpmZmZnZRECamZmZmdlFQM3MzMzMzEZAmpmZmZnZQEAAAAAAAABQQGZmZmZm5kZAZmZmZmamR0DNzMzMzIxLQDMzMzMzM0hAAAAAAADATEAzMzMzMzNJQAAAAAAAAFBAmpmZmZnZQECamZmZmdlLQJqZmZmZmTlAzczMzMyMSkAAAAAAAEBKQDMzMzMzMzNAZmZmZmZmOUAAAAAAAMBVQM3MzMzMzEVAZmZmZmamSEDNzMzMzIxAQJqZmZmZmUJAZmZmZmamR0CamZmZmZlEQM3MzMzMDEtAMzMzMzOzQECamZmZmZk5QM3MzMzMDEFAAAAAAAAASUA="},"shape":[40],"dtype":"float64","order":"little"}],["Well-being of population out of 10",{"type":"ndarray","array":{"type":"bytes","data":"HVpkO99PH0AAAAAAAIAeQIPAyqFFNh5ARIts5/spHkAfhetRuB4eQM/3U+OlGx5Az/dT46UbHkDLoUW2830dQPhT46WbRB1AIbByaJHtHEDJdr6fGi8dQCGwcmiR7RxA3SQGgZXDHEA9CtejcL0cQB+F61G4nhxA1XjpJjGIHEBxPQrXo3AcQPyp8dJNYhxAUrgehetRHEBvEoPAyiEcQDm0yHa+HxxA6SYxCKwcHEC8dJMYBNYbQG3n+6nx0htAYhBYObTIG0BU46WbxCAbQBSuR+F6FBtAEoPAyqHFGkAZBFYOLbIaQArXo3A9ihpAexSuR+F6GkCmm8QgsHIaQAAAAAAAABpA1XjpJjGIGUCF61G4HoUZQPT91HjpphhATDeJQWDlF0DpJjEIrBwXQOXQItv5/hZAnu+nxku3FkA="},"shape":[40],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1044","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1045"}}},"glyph":{"type":"object","name":"Circle","id":"p1040","attributes":{"x":{"type":"field","field":"Share of green areas in FUA's urban centres"},"y":{"type":"field","field":"Well-being of population out of 10"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"green"},"line_alpha":{"type":"value","value":0.7},"fill_color":{"type":"value","value":"green"},"fill_alpha":{"type":"value","value":0.7},"hatch_color":{"type":"value","value":"green"},"hatch_alpha":{"type":"value","value":0.7}}},"nonselection_glyph":{"type":"object","name":"Circle","id":"p1041","attributes":{"x":{"type":"field","field":"Share of green areas in FUA's urban centres"},"y":{"type":"field","field":"Well-being of population out of 10"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"green"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"green"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"green"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Circle","id":"p1042","attributes":{"x":{"type":"field","field":"Share of green areas in FUA's urban centres"},"y":{"type":"field","field":"Well-being of population out of 10"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"green"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"green"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"green"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1013","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1026"},{"type":"object","name":"WheelZoomTool","id":"p1027","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1028","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1029","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p1034"},{"type":"object","name":"ResetTool","id":"p1035"},{"type":"object","name":"HelpTool","id":"p1036"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1021","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1022","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1023"},"axis_label":"Well-being of population","major_label_policy":{"type":"object","name":"AllLabels","id":"p1024"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1016","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1017","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1018"},"axis_label":"Share of green areas in FUA's urban centres","major_label_policy":{"type":"object","name":"AllLabels","id":"p1019"}}}],"center":[{"type":"object","name":"Grid","id":"p1020","attributes":{"axis":{"id":"p1016"}}},{"type":"object","name":"Grid","id":"p1025","attributes":{"dimension":1,"axis":{"id":"p1021"}}},{"type":"object","name":"LabelSet","id":"p1049","attributes":{"level":"glyph","source":{"type":"object","name":"ColumnDataSource","id":"p1046","attributes":{"selected":{"type":"object","name":"Selection","id":"p1047","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1048"},"data":{"type":"map","entries":[["x",[]],["y",[]],["text",[]]]}}},"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"text":{"type":"field","field":"text"},"x_offset":{"type":"value","value":5},"y_offset":{"type":"value","value":5},"text_font_size":{"type":"value","value":"8pt"}}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p1056').textContent;
+              const render_items = [{"docid":"7d80fcc5-1c55-4d6a-8ac8-2afa715a42f6","roots":{"p1004":"c697e6af-e357-472d-860d-eb276de13632"},"root_ids":["p1004"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
